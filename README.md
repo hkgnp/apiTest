@@ -1,6 +1,6 @@
-## Getting Started
+## Introduction
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a test build of an API client using JAX-RS (Jakarta) to communicate with the OneMap API Client.
 
 ## Folder Structure
 
