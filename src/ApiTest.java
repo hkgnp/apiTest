@@ -17,7 +17,6 @@ public class ApiTest {
         JsonObject reply = jsonResults.readObject();
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         System.out.println(gson.toJson(reply));
-
     }
 
     public static Response searchOneMap(String searchVal) {
@@ -32,8 +31,6 @@ public class ApiTest {
                                         .request(MediaType.APPLICATION_JSON)
                                         .get();
     }
-
-
 }
 
 
